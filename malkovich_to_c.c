@@ -20,7 +20,7 @@ int main(int m, char const *ma[])
   fprintf(malk, "int main(){char m[30000];char *ma = m;");
 
   int malko;
-  char malkov;
+  char malkov = 0;
   while ((malko = fgetc(mal)) != EOF) {
     switch ((char)malko) {
       case '.':
